@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<launch>
-    <!-- Node -->
-    <node name="yoloLiveNode" pkg="objdetection" type="objDetectionLive.py" output="screen" respawn="true">
-    </node>
-</launch>
