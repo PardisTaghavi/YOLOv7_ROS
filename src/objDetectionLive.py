@@ -22,7 +22,7 @@ from utils.general import check_img_size, check_requirements, check_imshow, non_
 from utils.plots import plot_one_box
 from utils.torch_utils import select_device, load_classifier, time_synchronized, TracedModel
 from utils.datasets import letterbox
-weights='yolov7.pt'
+weights="~/catkin_ws/src/objdetection/src/yolov7/yolov7.pt"
 source=0  #'inference/images'
 img_size=640
 conf_thres=0.7
