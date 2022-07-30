@@ -7,6 +7,5 @@ This package has been tested on Ubuntu 18.04 and ROS Melodic with Python 3.9.
 Clone the packages to ROS workspace, build the ROS package with Catkin_make and launch the node :
 
 ```
-roslaunch objdetection liveobjdetectorlaunch.launch 
-
+roslaunch objdetection detectorLaunch.launch
 ```
